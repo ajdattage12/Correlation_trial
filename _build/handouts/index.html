@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Correlation Trials | Devmountain Foundations</title>
+
+      <link
+        href="_static/pygments.css"
+        rel="stylesheet"
+        type="text/css"
+      />
+      <link href="_static/devmountain.css" rel="stylesheet" type="text/css" />
+          <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+          <link rel="stylesheet" type="text/css" href="_static/devmountain.css" />
+          <link rel="stylesheet" type="text/css" href="_static/plot_directive.css" />
+          <link rel="stylesheet" type="text/css" href="_static/graphviz.css" />
+
+      <script src="_static/pdfobject.min.js"></script>
+      
+  </head>
+  <body>
+      <div id="handouts-container">
+        <header id="page-header">
+            <p id="project-title">Devmountain Foundations</p>
+            <p id="page-title">Correlation Trials</p>
+              <p id="backlink">
+                <a href="/"> &laquo; Back to Homepage </a>
+              </p>
+        </header>
+
+        <nav id="page-toc"><ul>
+<li><a class="reference internal" href="#">Correlation Trials</a><ul>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#setup">Setup</a></li>
+<li><a class="reference internal" href="#trials">Trials</a><ul>
+<li><a class="reference internal" href="#directions">Directions</a></li>
+<li><a class="reference internal" href="#problems">Problems</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+
+        <main id="page-content">
+            <section class="section" id="correlation-trials">
+<h1>Correlation Trials</h1>
+<section class="section" id="introduction">
+<h2>Introduction</h2>
+<p>Correlating two values in a dataset is an important part of your data analysis toolset.
+Not only is important to know <strong>how</strong> to determine correlation between variables, but
+also <strong>if</strong> the correlation between variables is meaningful and/or appropriate to include
+in your analysis.</p>
+</section>
+<section class="section" id="setup">
+<h2>Setup</h2>
+<p>Refer to the correlation functions present in the video
+<a class="reference external" href="https://app.pluralsight.com/course-player?clipId=16b07ed4-441e-4dd4-af56-a1eb9b0da27a" target="_blank">“Demo: Calculating and Visualizing Correlation”</a>
+paying close attention to how to determine whether a correlation is <strong>statistically significant</strong>.</p>
+<p>Create a new Jupyter notebook environment and install the following packages:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">notebook</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">pandas</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">numpy</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">scipy</span></code></p></li>
+</ul>
+<p>Download or copy the <a class="reference external" href="https://data.world/aaizemberg/absenteeismatwork" target="_blank">Absenteeism Dataset</a> we used in the last
+exercise into your project directory.</p>
+</section>
+<section class="section" id="trials">
+<h2>Trials</h2>
+<section class="section" id="directions">
+<h3>Directions</h3>
+<p>Calculate the correlation coefficient between the following pairs of variables using the absenteeism dataset. For
+<strong>each calculation</strong>, add an explanation that includes</p>
+<ul class="simple">
+<li><p>Whether there is a strong correlation</p></li>
+<li><p>Whether the correlation is statistically significant</p></li>
+<li><p>What the relationship between the two variables means, regardless of strong/weak correlation</p>
+<ul>
+<li><p>How would you use this in a presentation about this dataset? How would you explain
+the correlation to someone who is not familiar with the dataset?</p></li>
+</ul>
+</li>
+</ul>
+<p>In addition, use each of the following correlation calculation methods at least once.</p>
+<ul class="simple">
+<li><p>Scipy’s <cite>spearmanr</cite></p></li>
+<li><p>Scipy’s <cite>pearsonr</cite></p></li>
+<li><p>Numpy’s <cite>corrcoef</cite></p></li>
+</ul>
+</section>
+<section class="section" id="problems">
+<h3>Problems</h3>
+<ol class="arabic simple">
+<li><p>Day of the week and reason for absence</p></li>
+<li><p>Month of absence and age</p></li>
+<li><p>Hit target and disciplinary failure</p></li>
+<li><p>Service time and reason for absence</p></li>
+<li><p>Transportation expense and distance from residence to work</p></li>
+<li><p>Age and pet</p></li>
+<li><p>Absenteeism time in hours and day of the week</p></li>
+<li><p>Month of absence and absenteeism time in hours</p></li>
+<li><p>Body mass index and height</p></li>
+<li><p>Pet and disciplinary failure</p></li>
+</ol>
+<p><strong>When you have finished, push your Jupyter notebook to Github to turn in this exercise.</strong></p>
+</section>
+</section>
+</section>
+
+        </main>
+
+        <footer id="page-footer">
+            <p>&copy; 2021 Devmountain</p>
+        </footer>
+      </div>
+
+      <script src="_static/main.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+  </body>
+</html>
